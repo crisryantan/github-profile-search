@@ -1,0 +1,8 @@
+.list-group-item {
+	cursor : pointer;
+}
+
+.user-list {
+	margin-top : 0px !important;
+	padding    : 20px;
+}

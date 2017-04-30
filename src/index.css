@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.header-search-input {
+	display        : table-cell;
+	width          : 100%;
+	min-height     : 26px;
+	padding-top    : 0;
+	padding-bottom : 0;
+	background     : none;
+	border         : 0;
+	box-shadow     : none;
+	min-height     : 30px;
+	font-size      : inherit;
+	color          : inherit;
+}
+
+.header .header-search-wrapper {
+	min-height       : 30px;
+	font-size        : inherit;
+	color            : #fff;
+	background-color : rgba(255,255,255,0.125);
+	border           : 0;
+	box-shadow       : none;
+}
+
+.header-search-wrapper {
+	display        : table;
+	width          : 100%;
+	max-width      : 100%;
+	min-height     : 0;
+	padding        : 0;
+	font-weight    : normal;
+	vertical-align : middle;
+}
+
+.user-list {
+	margin-top : 30px;
+}
+
+.center {
+	text-align : center;
+}
+
+.display-block {
+	display : block;
+}
+
+.float-left {
+	float : left;
+}

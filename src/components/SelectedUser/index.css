@@ -1,0 +1,82 @@
+.avatar {
+	display        : inline-block;
+	overflow       : hidden;
+	line-height    : 1;
+	vertical-align : middle;
+	border-radius  : 4px;
+	width          : 100%;
+}
+
+.profile-container {
+	padding-right : 16px;
+	padding-left  : 16px;
+	max-width     : 1024px;
+	margin-right  : auto;
+	margin-left   : auto;
+}
+
+.user-first-col {
+	padding-right : 16px;
+	float         : left;
+}
+
+.card-name-container {
+	line-height : 1;
+}
+.card-fullname {
+	font-size   : 26px;
+	line-height : 30px;
+}
+.card-username {
+	font-size   : 20px;
+	font-style  : normal;
+	font-weight : 300;
+	line-height : 24px;
+	color       : #665;
+}
+
+.user-profile-bio {
+	margin-bottom : 12px;
+	overflow      : hidden;
+	font-size     : 14px;
+	color         : #6a737d;
+}
+
+.card-padding {
+	padding-top    : 16px;
+	padding-bottom : 16px;
+}
+
+.card-details {
+	list-style : none;
+	border-top : 1px #e1e4e8 solid;
+}
+
+.card-details .octicon {
+	margin-left : -22px;
+	float       : left;
+	margin-top  : 3px;
+	color       : #6a737d;
+	text-align  : center;
+}
+
+.user-profile-nav nav {
+	height  : 62px;
+	display : table;
+}
+
+.nav-item {
+	display        : table-cell;
+	padding-right  : 20px;
+	padding-left   : 20px;
+	font-size      : 15px;
+	color          : #586069;
+	vertical-align : middle;
+}
+
+.counter {
+	display          : inline-block;
+	padding          : 2px 5px;
+	font-size        : 12px;
+	font-weight      : 600;
+}
