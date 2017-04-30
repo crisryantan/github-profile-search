@@ -106,9 +106,10 @@ function mapStateToProps ( state ) {
 }
 
 SelectedUser.propTypes = {
-	user      : PropTypes.object,
-	searching : PropTypes.bool,
-	succeeded : PropTypes.bool
+	user       : PropTypes.object,
+	searching  : PropTypes.bool,
+	succeeded  : PropTypes.bool,
+	searchUser : PropTypes.func
 };
 
 export default connect( mapStateToProps, actions )( SelectedUser );

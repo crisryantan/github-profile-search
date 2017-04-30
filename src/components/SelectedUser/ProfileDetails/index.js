@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-export default class ProfileDetails extends Component {
+class ProfileDetails extends Component {
 	render() {
 		const { user } = this.props;
 		return (
@@ -73,3 +74,9 @@ export default class ProfileDetails extends Component {
 		);
 	}
 }
+
+ProfileDetails.propTypes = {
+	user : PropTypes.object
+};
+
+export default ProfileDetails;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-export default class Repository extends Component {
+class Repository extends Component {
 	render() {
 		const { repo } = this.props;
 		return (
@@ -12,3 +13,9 @@ export default class Repository extends Component {
 		);
 	}
 }
+
+Repository.propTypes = {
+	repo : PropTypes.object
+};
+
+export default Repository;

@@ -92,8 +92,9 @@ SearchList.propTypes = {
 		PropTypes.array,
 		PropTypes.object
 	] ),
-	searching : PropTypes.bool,
-	succeeded : PropTypes.bool
+	searching   : PropTypes.bool,
+	succeeded   : PropTypes.bool,
+	searchUsers : PropTypes.func
 };
 
 export default connect( mapStateToProps, actions )( SearchList );
