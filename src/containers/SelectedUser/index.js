@@ -3,8 +3,8 @@ import  React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import CircularProgress from 'material-ui/CircularProgress';
 
-import Repository from './Repository';
-import ProfileDetails from './ProfileDetails';
+import Repository from '../../components/Repository';
+import ProfileDetails from '../../components/ProfileDetails';
 
 import { connect } from 'react-redux';
 import * as actions from './actions';

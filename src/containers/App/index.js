@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 
-import SearchBar from './SearchBar';
+import SearchBar from '../../components/SearchBar';
 
 import './index.css';
 

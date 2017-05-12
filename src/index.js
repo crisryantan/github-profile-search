@@ -7,9 +7,9 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import reduxThunk from 'redux-thunk';
 
-import App from './components/App';
-import SearchList from './components/SearchList';
-import SelectedUser from './components/SelectedUser';
+import App from './containers/App';
+import SearchList from './containers/SearchList';
+import SelectedUser from './containers/SelectedUser';
 
 import reducers from './reducers/index';
 
